@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("WhatsApp Image 2025-03-25 at 13.45.35_023ab05f.jpg");
+}
+
+.container {
+    background:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 40px;
+    color:green;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color:green;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#confirmationMessage {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
