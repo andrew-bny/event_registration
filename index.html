@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <div class="container">
+        <h2 >Event Registration</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Anugraha Jayakrishnan" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="jinujayachandran@gmail.com" required>
+
+            <label for="Contact Number">Email:</label>
+            <input type="number" id="number" placeholder="1234567890" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" required>
+                <option value="">Choose an event</option>
+                <option value="workshop">Workshop</option>
+                <option value="seminar">Seminar</option>
+                <option value="webinar">Webinar</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </div>
+    
+    
+
+    <script src="c.js"></script>
+</body>
+</html>
